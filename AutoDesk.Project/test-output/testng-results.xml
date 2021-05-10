@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[organization found]]>
+    </line>
+    <line>
+      <![CDATA[filter the organization by prospectAccount]]>
+    </line>
+    <line>
+      <![CDATA[actualfilterDropDown and option are equal]]>
+    </line>
+    <line>
+      <![CDATA[organization found]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114946" started-at="2021-05-09T23:46:12 IST" finished-at="2021-05-09T23:48:07 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="searchOrganizationTest.searchOrganizationNameByPhone()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByPhone" class="com.comcast.crm.organizationTest.searchOrganizationTest"/>
+        <method signature="searchOrganizationTest.searchOrganizationNameByRating()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByRating" class="com.comcast.crm.organizationTest.searchOrganizationTest"/>
+        <method signature="searchOrganizationTest.searchOrganizationNameByWebsite()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByWebsite" class="com.comcast.crm.organizationTest.searchOrganizationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="searchOrganizationTest.filterProspectAccounts()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="filterProspectAccounts" class="com.comcast.crm.organizationTest.searchOrganizationTest"/>
+        <method signature="searchOrganizationTest.searchOrganizationNameByOrgName()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByOrgName" class="com.comcast.crm.organizationTest.searchOrganizationTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="114946" started-at="2021-05-09T23:46:12 IST" finished-at="2021-05-09T23:48:07 IST">
+      <class name="com.comcast.crm.organizationTest.searchOrganizationTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configBS" is-config="true" duration-ms="15" started-at="2021-05-09T23:46:12 IST" finished-at="2021-05-09T23:46:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBT()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configBT" is-config="true" duration-ms="1" started-at="2021-05-09T23:46:12 IST" finished-at="2021-05-09T23:46:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configBC" is-config="true" duration-ms="6943" started-at="2021-05-09T23:46:12 IST" finished-at="2021-05-09T23:46:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="12044" started-at="2021-05-09T23:46:19 IST" finished-at="2021-05-09T23:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="filterProspectAccounts()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="filterProspectAccounts" duration-ms="13051" started-at="2021-05-09T23:46:31 IST" finished-at="2021-05-09T23:46:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[organization found]]>
+            </line>
+            <line>
+              <![CDATA[filter the organization by prospectAccount]]>
+            </line>
+            <line>
+              <![CDATA[actualfilterDropDown and option are equal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterProspectAccounts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="14329" started-at="2021-05-09T23:46:44 IST" finished-at="2021-05-09T23:46:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="6070" started-at="2021-05-09T23:46:58 IST" finished-at="2021-05-09T23:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchOrganizationNameByOrgName()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByOrgName" duration-ms="10884" started-at="2021-05-09T23:47:04 IST" finished-at="2021-05-09T23:47:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[organization found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOrganizationNameByOrgName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="3957" started-at="2021-05-09T23:47:15 IST" finished-at="2021-05-09T23:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="5025" started-at="2021-05-09T23:47:19 IST" finished-at="2021-05-09T23:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchOrganizationNameByPhone()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByPhone" duration-ms="7639" started-at="2021-05-09T23:47:24 IST" finished-at="2021-05-09T23:47:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrganizationNameByPhone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="2813" started-at="2021-05-09T23:47:32 IST" finished-at="2021-05-09T23:47:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="4116" started-at="2021-05-09T23:47:35 IST" finished-at="2021-05-09T23:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchOrganizationNameByRating()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByRating" duration-ms="7846" started-at="2021-05-09T23:47:39 IST" finished-at="2021-05-09T23:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrganizationNameByRating -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="2658" started-at="2021-05-09T23:47:47 IST" finished-at="2021-05-09T23:47:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="4584" started-at="2021-05-09T23:47:49 IST" finished-at="2021-05-09T23:47:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchOrganizationNameByWebsite()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="searchOrganizationNameByWebsite" duration-ms="6767" started-at="2021-05-09T23:47:54 IST" finished-at="2021-05-09T23:48:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrganizationNameByWebsite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="5132" started-at="2021-05-09T23:48:01 IST" finished-at="2021-05-09T23:48:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configAC" is-config="true" duration-ms="988" started-at="2021-05-09T23:48:06 IST" finished-at="2021-05-09T23:48:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configAT" is-config="true" duration-ms="0" started-at="2021-05-09T23:48:07 IST" finished-at="2021-05-09T23:48:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.comcast.crm.organizationTest.searchOrganizationTest@2d8f65a4]" name="configAS" is-config="true" duration-ms="2" started-at="2021-05-09T23:48:07 IST" finished-at="2021-05-09T23:48:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.organizationTest.searchOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
