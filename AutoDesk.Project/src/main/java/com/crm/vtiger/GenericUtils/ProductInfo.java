@@ -6,6 +6,10 @@ package com.crm.vtiger.GenericUtils;
  *
  */
 public class ProductInfo {
-//element="xpath";
-	//element1="xpath";
+//element="path";
+
+	//element1="path";s
+
+	//element="path";pray
+
 }
