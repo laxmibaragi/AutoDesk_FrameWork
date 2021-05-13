@@ -7,4 +7,5 @@ package com.crm.vtiger.GenericUtils;
  */
 public class ProductInfo {
 //element="xpath";
+	//element1="xpath";
 }
